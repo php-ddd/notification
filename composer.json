@@ -1,0 +1,26 @@
+{
+  "name": "php-ddd/notification",
+  "description": "PHP implementation of Fowler's Notification pattern",
+  "keywords": [ "Notification", "Value Object", "Generic Sub-domain", "domain-driven design", "DDD" ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {"PhpDDD\\Notification\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpDDD\\Notification\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Julien Dufresne"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "fabpot/php-cs-fixer": "dev-master"
+  }
+}
