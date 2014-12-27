@@ -29,7 +29,7 @@ class Notification
     }
 
     /**
-     * @return string[]|null
+     * @return string[]
      */
     public function errorMessages()
     {
