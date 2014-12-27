@@ -34,7 +34,7 @@ class NotificationTest extends PHPUnit_Framework_TestCase
         $notification->addError($errorMessage2);
 
         $this->assertTrue($notification->hasErrors());
-        $this->assertEquals(array($errorMessage,$errorMessage2), $notification->errorMessages());
+        $this->assertEquals(array($errorMessage, $errorMessage2), $notification->errorMessages());
         $this->assertEquals($errorMessage, $notification->firstErrorMessage());
     }
 }

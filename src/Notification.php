@@ -42,7 +42,7 @@ class Notification
     public function firstErrorMessage()
     {
         if (!$this->hasErrors()) {
-            return null;
+            return;
         }
         $error = reset($this->errors);
 
