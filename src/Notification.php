@@ -1,8 +1,9 @@
 <?php
 namespace PhpDDD\Notification;
 
-use Exception;
-
+/**
+ * This class aims to stores all the validation errors you will find.
+ */
 class Notification
 {
 
@@ -12,12 +13,11 @@ class Notification
     private $errors = array();
 
     /**
-     * @param string    $message
-     * @param Exception $exception
+     * @param string $message
      */
-    public function addError($message, Exception $exception = null)
+    public function addError($message)
     {
-        $this->errors[] = new Error($message, $exception);
+        $this->errors[] = new Error($message);
     }
 
     /**
