@@ -1,4 +1,5 @@
-Notification [![Build Status](https://travis-ci.org/php-ddd/notification.svg)](https://travis-ci.org/php-ddd/command)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/php-ddd/notification/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/php-ddd/notification/?branch=master)[![Code Coverage](https://scrutinizer-ci.com/g/php-ddd/notification/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/php-ddd/notification/?branch=master)
+[![Build Status](https://travis-ci.org/php-ddd/notification.svg)](https://travis-ci.org/php-ddd/command)[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/php-ddd/notification/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/php-ddd/notification/?branch=master)[![Code Coverage](https://scrutinizer-ci.com/g/php-ddd/notification/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/php-ddd/notification/?branch=master)[![SensioLabsInsight](https://insight.sensiolabs.com/projects/852fe608-1605-481b-88a5-b3c6137019a9/mini.png)](https://insight.sensiolabs.com/projects/852fe608-1605-481b-88a5-b3c6137019a9)
+Notification
 ============
 
 PHP 5.3+ library to handle to replace throwing exceptions with notification in validations.
